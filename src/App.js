@@ -9,6 +9,12 @@ import Location from './components/Location';
 function App() {
   return (
     <div className="App">
+        <AppProvider>
+            <CartValue />
+            <ExpenseList />
+            <ItemSelected />
+            <Location />
+        </AppProvider>
     </div>
   );
 }
